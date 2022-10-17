@@ -34,8 +34,6 @@ p {
     margin-top: 10px;
 }
 
-
-
 h1 {
     font-size: 37pt;
     color :#000000;
@@ -70,7 +68,6 @@ h2 {
     font-style: Arial;
 }
 
-
 .entete {
     display: flex;
     width: 100%;
@@ -83,7 +80,6 @@ h2 {
     /* flex: 1 1 0px */
    margin-right: auto
 }
-
 
 #slogan {
 

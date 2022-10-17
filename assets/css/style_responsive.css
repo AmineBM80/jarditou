@@ -43,12 +43,13 @@
         align-items: center;
         font-size: 1em
     }
-}
 
-/*Responsive Page tableau*/
 
-@media screen and (max-width: 768px) 
-{
+    /*****************************
+    ***Responsive Page tableau***
+    *****************************/
+
+
     .sous_titre_tableau
     {
         font-size: 20pt;
@@ -101,12 +102,10 @@
     {
         flex: 1;
     }
-}
 
-/*Responsive Page Contact*/
 
-@media screen and (max-width: 768px) 
-{ 
+    /*Responsive Page Contact*/
+
 
     .sous_titre_contact
     {
@@ -148,12 +147,11 @@
         align-items: center;
         font-size: 1em
     }
-}
 
-/*Responsive pour tout le site*/
 
-@media screen and (max-width: 768px) 
-{   
+    /*Responsive pour tout le site*/
+
+ 
     ul
     {
         list-style-type: none;

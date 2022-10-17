@@ -36,9 +36,6 @@ p {
 
 }
 
-
-
-
 h1 {
     font-size: 37pt;
     color :#000000;
@@ -73,7 +70,6 @@ li a {
     font-style: Arial;
 }
 
-
 .entete_contact {
     display: flex;
     width: 100%;
@@ -86,7 +82,6 @@ li a {
     /* flex: 1 1 0px */
    margin-right: auto
 }
-
 
 #slogan_contact {
 
