@@ -36,54 +36,55 @@
             
             <br>
             <p>*Ces zones sont obligatoires</p>
-        
-            <fieldset>
-                <legend> Vos Coordonnées</legend>
-                <label for="nom">Votre Nom*:</label><input type="text" name="nom" id="nom"><br>
-                <label for="email_1">Votre prénom*:</label><input type="email" name="email_1" id="email_1"><br>
-                <br>
-                <label for="sexe">Sexe* :</label>
-                <input type="radio" name="sexe" value="Féminin" id="sexe"> Féminin
-                <input type="radio" name="sexe" value="Masculin" > Masculin 
-                <br>
-                <br>
-                <label for="date">Date de naissance* :</label><input type="date" name="ddn" id="date"><br>
-                <label for="cp">Code postal* :</label><input type="text" name="cp" id="cp"><br>
-                <label for="adresse">Adresse :</label><input type="text" name="adresse" id="adresse"><br>
-                <label for="ville">Ville :</label><input type="text" name="ville" id="ville"><br>
-                <label for="email_2"> Email* :</label><input type="text" placeholder="dave.loper@afpa.fr" name="email_2" id="email_2" ><br>
+            <form>
+                <fieldset>
+                    <legend> Vos Coordonnées</legend>
+                    <label for="nom">Votre Nom*:</label><input type="text" name="nom" id="nom"><br>
+                    <label for="email_1">Votre prénom*:</label><input type="email" name="email_1" id="email_1"><br>
+                    <br>
+                    <label for="sexe">Sexe* :</label>
+                    <input type="radio" name="sexe" value="Féminin" id="sexe"> Féminin
+                    <input type="radio" name="sexe" value="Masculin" > Masculin 
+                    <br>
+                    <br>
+                    <label for="date">Date de naissance* :</label><input type="date" name="ddn" id="date"><br>
+                    <label for="cp">Code postal* :</label><input type="text" name="cp" id="cp"><br>
+                    <label for="adresse">Adresse :</label><input type="text" name="adresse" id="adresse"><br>
+                    <label for="ville">Ville :</label><input type="text" name="ville" id="ville"><br>
+                    <label for="email_2"> Email* :</label><input type="text" placeholder="dave.loper@afpa.fr" name="email_2" id="email_2" ><br>
 
-            </fieldset>
-        
-            <br>
-        
+                </fieldset>
             
-            <fieldset>
-        
-                <legend>Votre demande </legend>
-        
-                <label for="sujet">Sujet* :</label>
-                <select id="sujet">
-                <option value="veuillez séléctionner un sujet" selected>Veuillez séléctionner un sujet</option>
-                <option value="commandes">Mes Commandes
-                
-                <option value="autres">Autres</option>
-                </select>    
                 <br>
-                <label for="votre_question">Votre question* :</label>
-                <textarea name="votre_question" id="votre_question" cols="30" rows="3"></textarea>
-        
-            </fieldset>
             
-            <br>
-        
-            <input type="Checkbox" name="CGU" value="CGU"> * J'accepte le traitement informatique de ce formulaire
-           
-            <br>
-            <br>
+                
+                <fieldset>
             
-            <button type="submit">Envoyer</button>
-            <button type="submit">Annuler</button>
+                    <legend>Votre demande </legend>
+            
+                    <label for="sujet">Sujet* :</label>
+                    <select id="sujet">
+                    <option value="veuillez séléctionner un sujet" selected>Veuillez séléctionner un sujet</option>
+                    <option value="commandes">Mes Commandes
+                    
+                    <option value="autres">Autres</option>
+                    </select>    
+                    <br>
+                    <label for="votre_question">Votre question* :</label>
+                    <textarea name="votre_question" id="votre_question" cols="30" rows="3"></textarea>
+            
+                </fieldset>
+                
+                <br>
+            
+                <input type="Checkbox" name="CGU" value="CGU"> * J'accepte le traitement informatique de ce formulaire
+            
+                <br>
+                <br>
+                
+                <button type="submit">Envoyer</button>
+                <button type="reset">Annuler</button>
+            </form>
 
         </article>   
         
